@@ -1,0 +1,24 @@
+#internshipPane {
+}
+
+#profilePane {
+-fx-background-color: white;
+}
+
+#profileHolder {
+
+}
+
+#avatarHolder {
+-fx-border-color: black;
+-fx-border-radius: 15%;
+}
+
+#usernameHolder {
+-fx-border-color: black;
+-fx-border-radius: 0;
+-fx-padding: 5 15 5 15;
+}
+
+#logoHolder {
+}

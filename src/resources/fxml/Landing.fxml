@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1024.0" stylesheets="@../css/Landing.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="core.LandingController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <left>
+            <AnchorPane id="profilePane" fx:id="profile_pane" prefHeight="600.0" prefWidth="300.0" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <AnchorPane id="internshipPane" fx:id="internship_pane" prefHeight="200.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox id="internshipVbox" fx:id="internship_vbox" layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="100.0" />
+               </children>
+            </AnchorPane>
+         </right>
+      </BorderPane>
+   </children>
+</StackPane>
